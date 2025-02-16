@@ -1,0 +1,115 @@
+.buttonOne{
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+    user-select: none;
+}
+.mot{
+    overflow: hidden;
+    animation: downAnimation 1s ease-in forwards;
+}
+.infoOne{
+    overflow: hidden;
+}
+@keyframes downAnimation {
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+        box-shadow: 0.5px 8px rgb(78, 78, 78);
+    }
+}
+.one{
+    width: 30em;
+    height: 5em;
+    border-radius: 5px;
+    background-color: rgb(87, 139, 122);
+    border: 2px solid;
+}
+.two{
+    width: 30em;
+    height: 5em;
+    border-radius: 5px;
+    background-color: rgb(87, 139, 122);
+    border: 2px solid;
+}
+.buttonTwo{
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+.hai{
+    overflow: hidden;
+    animation: downAnimation1 1s ease-in forwards;
+}
+.infoTwo{
+    overflow: hidden;
+    
+}
+@keyframes downAnimation1 {
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+        box-shadow: 0.5px 8px rgb(78, 78, 78);
+    }
+}
+.text{
+    margin-top: 0.5em;
+    text-align: center;
+}
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+    height: 70vh;
+    background-color: rgb(180, 180, 180);
+    margin-top: 1em;
+    font-size: larger;
+    transition: background-color 1s linear;
+}
+.mainBox:hover{
+    background-color:rgb(151, 151, 151) ;
+
+}
+li{
+    font-size: larger;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.hai{
+    margin-top: 0.5em;
+    border-radius: 10em;
+    
+}
+.mot{
+    margin-top: 0.5em;
+    border-radius: 10em;
+}
+.one{
+    overflow: hidden;
+}
+.two{
+    overflow: hidden;
+}
+.forTwo{
+    overflow: hidden;
+    padding:0;
+    margin: 0;
+    height: 100%;
+}
+.forOne{
+    overflow: hidden;
+    height: 100%;
+}

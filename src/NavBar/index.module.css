@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    transition: all 0.3s;
+    &:hover{
+        color: rgb(182, 182, 182)
+    }
+    
+}
+
+nav{
+    display:flex;
+    background-color: black;
+    padding: 0.5em 0.5em
+}
+img{
+    width: 3em;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
