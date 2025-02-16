@@ -10,8 +10,8 @@ export default function App(){
       <Router basename='/'>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='about' element={<About/>} />
-          <Route path='tour' element={<Tour/>} />
+          <Route path='#/about' element={<About/>} />
+          <Route path='#/tour' element={<Tour/>} />
         </Routes>
       </Router>
     </div>
